@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Addin>
+    <Url>BlockBrush_0.1.mpack</Url>
+    <Addin>
+      <Id>BlockBrush</Id>
+      <Namespace />
+      <Name>Block Brush</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author>Cameron White</Author>
+      <Copyright />
+      <Url>https://github.com/PintaProject/BlockBrush</Url>
+      <Description>A brush similar to the block brush in GIMP.</Description>
+      <Category>Brushes</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Block Brush</Property>
+        <Property name="Description">A brush similar to the block brush in GIMP.</Property>
+        <Property name="Author">Cameron White</Property>
+        <Property name="Url">https://github.com/PintaProject/BlockBrush</Property>
+        <Property name="DownloadSize">2674</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>NightVisionEffect_1.2.mpack</Url>
+    <Addin>
+      <Id>NightVisionEffect</Id>
+      <Namespace />
+      <Name>Night Vision Effect</Name>
+      <Version>1.2</Version>
+      <BaseVersion />
+      <Author>Pinta Project</Author>
+      <Copyright />
+      <Url>https://github.com/PintaProject/NightVisionEffect</Url>
+      <Description>A simple add-in that will recolour your image so that it looks like a night vision picture.</Description>
+      <Category>Effects</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Night Vision Effect</Property>
+        <Property name="Description">A simple add-in that will recolour your image so that it looks like a night vision picture.</Property>
+        <Property name="Author">Pinta Project</Property>
+        <Property name="Url">https://github.com/PintaProject/NightVisionEffect</Property>
+        <Property name="Name" locale="nb">Nattkikkert-effekt</Property>
+        <Property name="Description" locale="nb">En enkel effekt som vil endre fargene på bildet ditt slik at det ser ut som det er tatt med nattkikkert.</Property>
+        <Property name="DownloadSize">3652</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>PintaDemoExtension_1.5.mpack</Url>
+    <Addin>
+      <Id>PintaDemoExtension</Id>
+      <Namespace />
+      <Name>Demo Add-in</Name>
+      <Version>1.5</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright />
+      <Url />
+      <Description>A simple add-in that demonstrates how add-ins work.</Description>
+      <Category>Utilities</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">4541</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>PintaUploadAddin_0.1.mpack</Url>
+    <Addin>
+      <Id>PintaUploadAddin</Id>
+      <Namespace />
+      <Name>Uploader</Name>
+      <Version>0.1</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright />
+      <Url />
+      <Description>Allows you to upload your images to web sites. Currently supported: imgur.com</Description>
+      <Category>Web</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">6454</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>WebP_0.2.mpack</Url>
+    <Addin>
+      <Id>WebP</Id>
+      <Namespace />
+      <Name>WebP</Name>
+      <Version>0.2</Version>
+      <BaseVersion />
+      <Author>Pinta Project</Author>
+      <Copyright />
+      <Url>https://github.com/PintaProject/WebPAddin</Url>
+      <Description>Provides support for the WebP image format.</Description>
+      <Category>File Formats</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">WebP</Property>
+        <Property name="Description">Provides support for the WebP image format.</Property>
+        <Property name="Author">Pinta Project</Property>
+        <Property name="Url">https://github.com/PintaProject/WebPAddin</Property>
+        <Property name="DownloadSize">5196</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>
