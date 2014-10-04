@@ -11,6 +11,7 @@ This repository is for distributing community-contributed add-ins to all Pinta u
 - Run "update_repository.sh" to regenerate the add-in index.
 - If you wish, you can locally test that your mpack works by adding the repository in Pinta through Add-in Manager -> Gallery -> Manage repositories -> Add -> Register a local repository, and then installing the addin that way.
 - Commit to git and send a pull request to get your add-in included/updated. (Reliable add-in authors may be given commit rights to the main repository)
+  - The pull request should include changes to index.html, root.mrep, main.mrep (from running the update script), and your addin mpack.
 - Voilà, your add-in is now available to every Pinta user! (From 1.6 onwards, of if they have added the repository manually)
 
 ##Licensing
