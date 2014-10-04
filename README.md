@@ -6,9 +6,10 @@ This repository is for distributing community-contributed add-ins to all Pinta u
 
 - Make sure you have mautil installed by installing the mono-addins-utils package.
 - Build your add-in as described in the tutorial (look at the existing add-ins for a hint).
-- Run "mautil pack" on your resulting DLL file.
-- Copy that DLL file to the "repository" subfolder.
+- Run "mautil pack" on your resulting DLL file to create a mpack file (Mono.Addins installaton package).
+- Copy that mpack file to the "repository" subfolder.
 - Run "update_repository.sh" to regenerate the add-in index.
+- If you wish, you can locally test that your mpack works by adding the repository in Pinta through Add-in Manager -> Gallery -> Manage repositories -> Add -> Register a local repository, and then installing the addin that way.
 - Commit to git and send a pull request to get your add-in included/updated. (Reliable add-in authors may be given commit rights to the main repository)
 - Voilà, your add-in is now available to every Pinta user! (From 1.6 onwards, of if they have added the repository manually)
 
