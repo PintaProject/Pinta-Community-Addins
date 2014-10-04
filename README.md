@@ -16,3 +16,7 @@ This repository is for distributing community-contributed add-ins to all Pinta u
 
 ##Licensing
 What little code there is in this repository is MIT/X-licensed just like Pinta. Individual addins contributed to this repository can have different licenses on their source code, but by committing them here you agree to allow unlimited distribution of the binaries.
+
+##Notes
+See https://monoaddins.codeplex.com/wikipage?title=Creating%20and%20Managing%20Add-in%20Packages for more info on mautil and mpack.
+See the Pinta wiki for more on creating Pinta addins.
