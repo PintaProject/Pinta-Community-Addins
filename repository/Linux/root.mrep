@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Addin>
+    <Url>WebP_0.2.mpack</Url>
+    <Addin>
+      <Id>WebP</Id>
+      <Namespace />
+      <Name>WebP</Name>
+      <Version>0.2</Version>
+      <BaseVersion />
+      <Author>Pinta Project</Author>
+      <Copyright />
+      <Url>https://github.com/PintaProject/WebPAddin</Url>
+      <Description>Provides support for the WebP image format.</Description>
+      <Category>File Formats</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">WebP</Property>
+        <Property name="Description">Provides support for the WebP image format.</Property>
+        <Property name="Author">Pinta Project</Property>
+        <Property name="Url">https://github.com/PintaProject/WebPAddin</Property>
+        <Property name="DownloadSize">5196</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>

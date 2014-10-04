@@ -13,7 +13,17 @@ echo "Getting ready to update repository, please make sure your addin file is in
 
 #Run mautil to update the repo
 
-mautil rep-build repository
+echo "Updating platform independent repository..."
+mautil rep-build repository/All
+
+echo "Updating Linux repository..."
+mautil rep-build repository/Linux
+
+echo "Updating Mac repository..."
+mautil rep-build repository/Mac
+
+echo "Updating Windows repository..."
+mautil rep-build repository/Windows
 
 #Mission accomplished!
 echo "Repository updated, please commit and send a pull request to have your add-in go live!"
