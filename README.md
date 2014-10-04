@@ -2,6 +2,10 @@
 
 This repository is for distributing community-contributed add-ins to all Pinta users, replacing the old and slightly unreliable server system we used to use. Please note that in this repository you only commit the finished and packaged binaries for your add-ins. You should still keep your source code, isue trackers etc. in a git repository of your own.
 
+##The repository
+
+Go to http://pintaproject.github.io/Pinta-Community-Addins/repository to check out the currently availble addins, and add the repository to Pinta 1.5 by opening the addin manager, going to Gallery -> Manage repositories -> Add, and adding this URL.
+
 ##Adding to the repository
 
 - Make sure you have mautil installed by installing the mono-addins-utils package.
