@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Addin>
+    <Url>ASCIIArtAddin_1.0.mpack</Url>
+    <Addin>
+      <Id>ASCIIArtAddin</Id>
+      <Namespace />
+      <Name>ASCII Art</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Robert Nordan</Author>
+      <Copyright />
+      <Url>TODO</Url>
+      <Description>Converts images to ASCII art and back.</Description>
+      <Category>File Formats</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">ASCII Art</Property>
+        <Property name="Description">Converts images to ASCII art and back.</Property>
+        <Property name="Author">Robert Nordan</Property>
+        <Property name="Url">TODO</Property>
+        <Property name="Name" locale="nb">ASCII-Kunst</Property>
+        <Property name="Description" locale="nb">Konverterer bilder til ASCII-kunst (tekstfiler) og tilbake.</Property>
+        <Property name="DownloadSize">8276</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
     <Url>BlockBrush_0.1.mpack</Url>
     <Addin>
       <Id>BlockBrush</Id>
@@ -30,12 +61,12 @@
     </Addin>
   </Addin>
   <Addin>
-    <Url>NightVisionEffect_1.2.mpack</Url>
+    <Url>NightVisionEffect_1.2.1.mpack</Url>
     <Addin>
       <Id>NightVisionEffect</Id>
       <Namespace />
       <Name>Night Vision Effect</Name>
-      <Version>1.2</Version>
+      <Version>1.2.1</Version>
       <BaseVersion />
       <Author>Pinta Project</Author>
       <Copyright />
@@ -54,9 +85,13 @@
         <Property name="Description">A simple add-in that will recolour your image so that it looks like a night vision picture.</Property>
         <Property name="Author">Pinta Project</Property>
         <Property name="Url">https://github.com/PintaProject/NightVisionEffect</Property>
+        <Property name="Name" locale="ca">Efecte de visió nocturna</Property>
+        <Property name="Name" locale="es">Efecto de visión nocturna</Property>
         <Property name="Name" locale="nb">Nattkikkert-effekt</Property>
+        <Property name="Description" locale="ca">Aquest connector acolorirà la vostra imatge perquè sembli vista a través d’un dispositiu de visió nocturna.</Property>
+        <Property name="Description" locale="es">Este complemento coloreará la imagen para que parezca vista a través de un dispositivo de visión nocturna.</Property>
         <Property name="Description" locale="nb">En enkel effekt som vil endre fargene på bildet ditt slik at det ser ut som det er tatt med nattkikkert.</Property>
-        <Property name="DownloadSize">3652</Property>
+        <Property name="DownloadSize">4005</Property>
       </Properties>
     </Addin>
   </Addin>
