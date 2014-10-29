@@ -4,7 +4,7 @@ This repository is for distributing community-contributed add-ins to all Pinta u
 
 ##The repository
 
-Go to http://pintaproject.github.io/Pinta-Community-Addins/repository to check out the currently availble addins, and add the repository to Pinta 1.5 by opening the addin manager, going to Gallery -> Manage repositories -> Add, and adding this URL.
+Go to http://pintaproject.github.io/Pinta-Community-Addins/repository/All (also Linux/Mac/Windows for platform specific addins) to check out the currently availble addins, and add the repository to Pinta 1.5 by opening the addin manager, going to Gallery -> Manage repositories -> Add, and adding this URL.
 
 ##Adding to the repository
 
