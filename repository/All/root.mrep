@@ -32,35 +32,6 @@
     </Addin>
   </Addin>
   <Addin>
-    <Url>BlockBrush_0.1.mpack</Url>
-    <Addin>
-      <Id>BlockBrush</Id>
-      <Namespace />
-      <Name>Block Brush</Name>
-      <Version>0.1</Version>
-      <BaseVersion />
-      <Author>Cameron White</Author>
-      <Copyright />
-      <Url>https://github.com/PintaProject/BlockBrush</Url>
-      <Description>A brush similar to the block brush in GIMP.</Description>
-      <Category>Brushes</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>Pinta</AddinId>
-          <Version>1.5</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="Name">Block Brush</Property>
-        <Property name="Description">A brush similar to the block brush in GIMP.</Property>
-        <Property name="Author">Cameron White</Property>
-        <Property name="Url">https://github.com/PintaProject/BlockBrush</Property>
-        <Property name="DownloadSize">2674</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
     <Url>GenerateGrid_1.0.mpack</Url>
     <Addin>
       <Id>GenerateGrid</Id>
@@ -127,12 +98,41 @@
     </Addin>
   </Addin>
   <Addin>
-    <Url>PintaDemoExtension_1.5.mpack</Url>
+    <Url>BlockBrush_0.1.1.mpack</Url>
+    <Addin>
+      <Id>BlockBrush</Id>
+      <Namespace />
+      <Name>Block Brush</Name>
+      <Version>0.1.1</Version>
+      <BaseVersion />
+      <Author>Cameron White</Author>
+      <Copyright />
+      <Url>https://github.com/PintaProject/BlockBrush</Url>
+      <Description>A brush similar to the block brush in GIMP.</Description>
+      <Category>Brushes</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Block Brush</Property>
+        <Property name="Description">A brush similar to the block brush in GIMP.</Property>
+        <Property name="Author">Cameron White</Property>
+        <Property name="Url">https://github.com/PintaProject/BlockBrush</Property>
+        <Property name="DownloadSize">2660</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>PintaDemoExtension_1.6.mpack</Url>
     <Addin>
       <Id>PintaDemoExtension</Id>
       <Namespace />
       <Name>Demo Add-in</Name>
-      <Version>1.5</Version>
+      <Version>1.6</Version>
       <BaseVersion />
       <Author />
       <Copyright />
@@ -147,17 +147,17 @@
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">4541</Property>
+        <Property name="DownloadSize">4477</Property>
       </Properties>
     </Addin>
   </Addin>
   <Addin>
-    <Url>PintaUploadAddin_0.1.mpack</Url>
+    <Url>PintaUploadAddin_0.1.1.mpack</Url>
     <Addin>
       <Id>PintaUploadAddin</Id>
       <Namespace />
       <Name>Uploader</Name>
-      <Version>0.1</Version>
+      <Version>0.1.1</Version>
       <BaseVersion />
       <Author />
       <Copyright />
@@ -172,7 +172,7 @@
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">6454</Property>
+        <Property name="DownloadSize">6413</Property>
       </Properties>
     </Addin>
   </Addin>
