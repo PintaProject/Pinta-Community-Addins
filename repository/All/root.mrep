@@ -1,68 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Addin>
-    <Url>ASCIIArtAddin_1.0.mpack</Url>
-    <Addin>
-      <Id>ASCIIArtAddin</Id>
-      <Namespace />
-      <Name>ASCII Art</Name>
-      <Version>1.0</Version>
-      <BaseVersion />
-      <Author>Robert Nordan</Author>
-      <Copyright />
-      <Url>TODO</Url>
-      <Description>Converts images to ASCII art and back.</Description>
-      <Category>File Formats</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>Pinta</AddinId>
-          <Version>1.5</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="Name">ASCII Art</Property>
-        <Property name="Description">Converts images to ASCII art and back.</Property>
-        <Property name="Author">Robert Nordan</Property>
-        <Property name="Url">TODO</Property>
-        <Property name="Name" locale="nb">ASCII-Kunst</Property>
-        <Property name="Description" locale="nb">Konverterer bilder til ASCII-kunst (tekstfiler) og tilbake.</Property>
-        <Property name="DownloadSize">8276</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
-    <Url>GenerateGrid_1.0.mpack</Url>
-    <Addin>
-      <Id>GenerateGrid</Id>
-      <Namespace />
-      <Name>Generate Grid</Name>
-      <Version>1.0</Version>
-      <BaseVersion />
-      <Author>Steve Kew</Author>
-      <Copyright />
-      <Url>http://aquaria.za.net</Url>
-      <Description>A simple add-in that will allow you to easily generate a grid or checkerboard pattern Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Description>
-      <Category>General</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>Pinta</AddinId>
-          <Version>1.5</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="Name">Generate Grid</Property>
-        <Property name="Description">A simple add-in that will allow you to easily generate a grid or checkerboard pattern. Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Property>
-        <Property name="Author">Steve Kew</Property>
-        <Property name="Url">http://aquaria.za.net</Property>
-        <Property name="Name" locale="en">Generate Grid</Property>
-        <Property name="Description" locale="en">A simple add-in that will allow you to easily generate a grid or checkerboard pattern Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Property>
-        <Property name="DownloadSize">3829</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
     <Url>NightVisionEffect_1.2.1.mpack</Url>
     <Addin>
       <Id>NightVisionEffect</Id>
@@ -98,6 +36,37 @@
     </Addin>
   </Addin>
   <Addin>
+    <Url>ASCIIArtAddin_1.0.1.mpack</Url>
+    <Addin>
+      <Id>ASCIIArtAddin</Id>
+      <Namespace />
+      <Name>ASCII Art</Name>
+      <Version>1.0.1</Version>
+      <BaseVersion />
+      <Author>Robert Nordan</Author>
+      <Copyright />
+      <Url>TODO</Url>
+      <Description>Converts images to ASCII art and back.</Description>
+      <Category>File Formats</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">ASCII Art</Property>
+        <Property name="Description">Converts images to ASCII art and back.</Property>
+        <Property name="Author">Robert Nordan</Property>
+        <Property name="Url">TODO</Property>
+        <Property name="Name" locale="nb">ASCII-Kunst</Property>
+        <Property name="Description" locale="nb">Konverterer bilder til ASCII-kunst (tekstfiler) og tilbake.</Property>
+        <Property name="DownloadSize">8279</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
     <Url>BlockBrush_0.1.1.mpack</Url>
     <Addin>
       <Id>BlockBrush</Id>
@@ -123,6 +92,37 @@
         <Property name="Author">Cameron White</Property>
         <Property name="Url">https://github.com/PintaProject/BlockBrush</Property>
         <Property name="DownloadSize">2660</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>GenerateGrid_1.0.mpack</Url>
+    <Addin>
+      <Id>GenerateGrid</Id>
+      <Namespace />
+      <Name>Generate Grid</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>Steve Kew</Author>
+      <Copyright />
+      <Url>http://aquaria.za.net</Url>
+      <Description>A simple add-in that will allow you to easily generate a grid or checkerboard pattern Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Description>
+      <Category>General</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Generate Grid</Property>
+        <Property name="Description">A simple add-in that will allow you to easily generate a grid or checkerboard pattern. Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Property>
+        <Property name="Author">Steve Kew</Property>
+        <Property name="Url">http://aquaria.za.net</Property>
+        <Property name="Name" locale="en">Generate Grid</Property>
+        <Property name="Description" locale="en">A simple add-in that will allow you to easily generate a grid or checkerboard pattern Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Property>
+        <Property name="DownloadSize">3829</Property>
       </Properties>
     </Addin>
   </Addin>
