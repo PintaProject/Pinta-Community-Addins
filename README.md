@@ -21,6 +21,10 @@ Go to http://pintaproject.github.io/Pinta-Community-Addins/repository/All (also 
   - The pull request should include changes to index.html, root.mrep, main.mrep (from running the update script), and your addin mpack.
 - Voilà, your add-in is now available to every Pinta user! (From 1.6 onwards, or if they have added the repository manually)
 
+##mautil
+For debian:
+"apt-get install mono-addins-utils"
+
 ##Licensing
 What little code there is in this repository is MIT/X-licensed just like Pinta. Individual addins contributed to this repository can have different licenses on their source code, but by committing them here you agree to allow unlimited distribution of the binaries.
 

@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Addin>
-    <Url>NightVisionEffect_1.2.1.mpack</Url>
-    <Addin>
-      <Id>NightVisionEffect</Id>
-      <Namespace />
-      <Name>Night Vision Effect</Name>
-      <Version>1.2.1</Version>
-      <BaseVersion />
-      <Author>Pinta Project</Author>
-      <Copyright />
-      <Url>https://github.com/PintaProject/NightVisionEffect</Url>
-      <Description>A simple add-in that will recolour your image so that it looks like a night vision picture.</Description>
-      <Category>Effects</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>Pinta</AddinId>
-          <Version>1.5</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="Name">Night Vision Effect</Property>
-        <Property name="Description">A simple add-in that will recolour your image so that it looks like a night vision picture.</Property>
-        <Property name="Author">Pinta Project</Property>
-        <Property name="Url">https://github.com/PintaProject/NightVisionEffect</Property>
-        <Property name="Name" locale="ca">Efecte de visió nocturna</Property>
-        <Property name="Name" locale="es">Efecto de visión nocturna</Property>
-        <Property name="Name" locale="nb">Nattkikkert-effekt</Property>
-        <Property name="Description" locale="ca">Aquest connector acolorirà la vostra imatge perquè sembli vista a través d’un dispositiu de visió nocturna.</Property>
-        <Property name="Description" locale="es">Este complemento coloreará la imagen para que parezca vista a través de un dispositivo de visión nocturna.</Property>
-        <Property name="Description" locale="nb">En enkel effekt som vil endre fargene på bildet ditt slik at det ser ut som det er tatt med nattkikkert.</Property>
-        <Property name="DownloadSize">4005</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
     <Url>ASCIIArtAddin_1.0.1.mpack</Url>
     <Addin>
       <Id>ASCIIArtAddin</Id>
@@ -63,6 +28,37 @@
         <Property name="Name" locale="nb">ASCII-Kunst</Property>
         <Property name="Description" locale="nb">Konverterer bilder til ASCII-kunst (tekstfiler) og tilbake.</Property>
         <Property name="DownloadSize">8279</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>AlphaAdjustmentEffectsAddin_1.0.0.mpack</Url>
+    <Addin>
+      <Id>AlphaAdjustmentEffects</Id>
+      <Namespace />
+      <Name>Alpha Adjustment Effekte</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stefan Moebius</Author>
+      <Copyright />
+      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
+      <Description>Eine Sammlung einfacher Effekte zur Manipulation des Alphakanals.</Description>
+      <Category>Effects</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Alpha Adjustment Effects</Property>
+        <Property name="Description">A collection of simple effects to manipulate the alpha channel.</Property>
+        <Property name="Author">Stefan Moebius</Property>
+        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
+        <Property name="Name" locale="de">Alpha Adjustment Effekte</Property>
+        <Property name="Description" locale="de">Eine Sammlung einfacher Effekte zur Manipulation des Alphakanals.</Property>
+        <Property name="DownloadSize">11359</Property>
       </Properties>
     </Addin>
   </Addin>
@@ -96,6 +92,68 @@
     </Addin>
   </Addin>
   <Addin>
+    <Url>BrushCollectionAddin_1.0,0.mpack</Url>
+    <Addin>
+      <Id>BrushCollection</Id>
+      <Namespace />
+      <Name>Brush Sammlung</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stefan Moebius</Author>
+      <Copyright />
+      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
+      <Description>Eine Sammlung zusätzlicher Brushes für Pinta. Sie beinhaltet Brushes zur verwaschen, schärfen, intelligentem löschen und einfärben von Bildern</Description>
+      <Category>Brushes</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Brush Collection</Property>
+        <Property name="Description">A collection of additional brushes for pinta. It contains brushes to blur, sharpen, inteligently erase and tone the image.</Property>
+        <Property name="Author">Stefan Moebius</Property>
+        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
+        <Property name="Name" locale="de">Brush Sammlung</Property>
+        <Property name="Description" locale="de">Eine Sammlung zusätzlicher Brushes für Pinta. Sie beinhaltet Brushes zur verwaschen, schärfen, intelligentem löschen und einfärben von Bildern</Property>
+        <Property name="DownloadSize">20372</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>DitherAddin_1.0.0.mpack</Url>
+    <Addin>
+      <Id>DitherEffect</Id>
+      <Namespace />
+      <Name>Dither-Effekt</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stefan Moebius</Author>
+      <Copyright />
+      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
+      <Description>Ein einfacher Dithereffekt, der abwechselnd die Helligkeit für jedes Pixel erhöht oder erniedrigt.</Description>
+      <Category>Effects</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Dither Effect</Property>
+        <Property name="Description">A simple dither effect which alternating increases and decreases brightness of each pixel.</Property>
+        <Property name="Author">Stefan Moebius</Property>
+        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
+        <Property name="Name" locale="de">Dither-Effekt</Property>
+        <Property name="Description" locale="de">Ein einfacher Dithereffekt, der abwechselnd die Helligkeit für jedes Pixel erhöht oder erniedrigt.</Property>
+        <Property name="DownloadSize">8649</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
     <Url>GenerateGrid_1.0.mpack</Url>
     <Addin>
       <Id>GenerateGrid</Id>
@@ -106,7 +164,7 @@
       <Author>Steve Kew</Author>
       <Copyright />
       <Url>http://aquaria.za.net</Url>
-      <Description>A simple add-in that will allow you to easily generate a grid or checkerboard pattern Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Description>
+      <Description>A simple add-in that will allow you to easily generate a grid or checkerboard pattern. Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Description>
       <Category>General</Category>
       <Dependencies>
         <AddinDependency>
@@ -123,6 +181,41 @@
         <Property name="Name" locale="en">Generate Grid</Property>
         <Property name="Description" locale="en">A simple add-in that will allow you to easily generate a grid or checkerboard pattern Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Property>
         <Property name="DownloadSize">3829</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>NightVisionEffect_1.2.1.mpack</Url>
+    <Addin>
+      <Id>NightVisionEffect</Id>
+      <Namespace />
+      <Name>Night Vision Effect</Name>
+      <Version>1.2.1</Version>
+      <BaseVersion />
+      <Author>Pinta Project</Author>
+      <Copyright />
+      <Url>https://github.com/PintaProject/NightVisionEffect</Url>
+      <Description>A simple add-in that will recolour your image so that it looks like a night vision picture.</Description>
+      <Category>Effects</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Night Vision Effect</Property>
+        <Property name="Description">A simple add-in that will recolour your image so that it looks like a night vision picture.</Property>
+        <Property name="Author">Pinta Project</Property>
+        <Property name="Url">https://github.com/PintaProject/NightVisionEffect</Property>
+        <Property name="Name" locale="ca">Efecte de visió nocturna</Property>
+        <Property name="Name" locale="es">Efecto de visión nocturna</Property>
+        <Property name="Name" locale="nb">Nattkikkert-effekt</Property>
+        <Property name="Description" locale="ca">Aquest connector acolorirà la vostra imatge perquè sembli vista a través d’un dispositiu de visió nocturna.</Property>
+        <Property name="Description" locale="es">Este complemento coloreará la imagen para que parezca vista a través de un dispositivo de visión nocturna.</Property>
+        <Property name="Description" locale="nb">En enkel effekt som vil endre fargene på bildet ditt slik at det ser ut som det er tatt med nattkikkert.</Property>
+        <Property name="DownloadSize">4005</Property>
       </Properties>
     </Addin>
   </Addin>
