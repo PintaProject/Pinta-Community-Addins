@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Addin>
-    <Url>ASCIIArtAddin_1.0.mpack</Url>
+    <Url>ASCIIArtAddin_1.0.1.mpack</Url>
     <Addin>
       <Id>ASCIIArtAddin</Id>
       <Namespace />
       <Name>ASCII Art</Name>
-      <Version>1.0</Version>
+      <Version>1.0.1</Version>
       <BaseVersion />
       <Author>Robert Nordan</Author>
       <Copyright />
@@ -27,17 +27,48 @@
         <Property name="Url">TODO</Property>
         <Property name="Name" locale="nb">ASCII-Kunst</Property>
         <Property name="Description" locale="nb">Konverterer bilder til ASCII-kunst (tekstfiler) og tilbake.</Property>
-        <Property name="DownloadSize">8276</Property>
+        <Property name="DownloadSize">8279</Property>
       </Properties>
     </Addin>
   </Addin>
   <Addin>
-    <Url>BlockBrush_0.1.mpack</Url>
+    <Url>AlphaAdjustmentEffectsAddin_1.0.0.mpack</Url>
+    <Addin>
+      <Id>AlphaAdjustmentEffects</Id>
+      <Namespace />
+      <Name>Alpha Adjustment Effekte</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stefan Moebius</Author>
+      <Copyright />
+      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
+      <Description>Eine Sammlung einfacher Effekte zur Manipulation des Alphakanals.</Description>
+      <Category>Effects</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Alpha Adjustment Effects</Property>
+        <Property name="Description">A collection of simple effects to manipulate the alpha channel.</Property>
+        <Property name="Author">Stefan Moebius</Property>
+        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
+        <Property name="Name" locale="de">Alpha Adjustment Effekte</Property>
+        <Property name="Description" locale="de">Eine Sammlung einfacher Effekte zur Manipulation des Alphakanals.</Property>
+        <Property name="DownloadSize">11359</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>BlockBrush_0.1.1.mpack</Url>
     <Addin>
       <Id>BlockBrush</Id>
       <Namespace />
       <Name>Block Brush</Name>
-      <Version>0.1</Version>
+      <Version>0.1.1</Version>
       <BaseVersion />
       <Author>Cameron White</Author>
       <Copyright />
@@ -56,7 +87,69 @@
         <Property name="Description">A brush similar to the block brush in GIMP.</Property>
         <Property name="Author">Cameron White</Property>
         <Property name="Url">https://github.com/PintaProject/BlockBrush</Property>
-        <Property name="DownloadSize">2674</Property>
+        <Property name="DownloadSize">2660</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>BrushCollectionAddin_1.0,0.mpack</Url>
+    <Addin>
+      <Id>BrushCollection</Id>
+      <Namespace />
+      <Name>Brush Sammlung</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stefan Moebius</Author>
+      <Copyright />
+      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
+      <Description>Eine Sammlung zusätzlicher Brushes für Pinta. Sie beinhaltet Brushes zur verwaschen, schärfen, intelligentem löschen und einfärben von Bildern</Description>
+      <Category>Brushes</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Brush Collection</Property>
+        <Property name="Description">A collection of additional brushes for pinta. It contains brushes to blur, sharpen, inteligently erase and tone the image.</Property>
+        <Property name="Author">Stefan Moebius</Property>
+        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
+        <Property name="Name" locale="de">Brush Sammlung</Property>
+        <Property name="Description" locale="de">Eine Sammlung zusätzlicher Brushes für Pinta. Sie beinhaltet Brushes zur verwaschen, schärfen, intelligentem löschen und einfärben von Bildern</Property>
+        <Property name="DownloadSize">20372</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>DitherAddin_1.0.0.mpack</Url>
+    <Addin>
+      <Id>DitherEffect</Id>
+      <Namespace />
+      <Name>Dither-Effekt</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stefan Moebius</Author>
+      <Copyright />
+      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
+      <Description>Ein einfacher Dithereffekt, der abwechselnd die Helligkeit für jedes Pixel erhöht oder erniedrigt.</Description>
+      <Category>Effects</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Dither Effect</Property>
+        <Property name="Description">A simple dither effect which alternating increases and decreases brightness of each pixel.</Property>
+        <Property name="Author">Stefan Moebius</Property>
+        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
+        <Property name="Name" locale="de">Dither-Effekt</Property>
+        <Property name="Description" locale="de">Ein einfacher Dithereffekt, der abwechselnd die Helligkeit für jedes Pixel erhöht oder erniedrigt.</Property>
+        <Property name="DownloadSize">8649</Property>
       </Properties>
     </Addin>
   </Addin>
@@ -71,7 +164,7 @@
       <Author>Steve Kew</Author>
       <Copyright />
       <Url>http://aquaria.za.net</Url>
-      <Description>A simple add-in that will allow you to easily generate a grid or checkerboard pattern Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Description>
+      <Description>A simple add-in that will allow you to easily generate a grid or checkerboard pattern. Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Description>
       <Category>General</Category>
       <Dependencies>
         <AddinDependency>
@@ -127,12 +220,12 @@
     </Addin>
   </Addin>
   <Addin>
-    <Url>PintaDemoExtension_1.5.mpack</Url>
+    <Url>PintaDemoExtension_1.6.mpack</Url>
     <Addin>
       <Id>PintaDemoExtension</Id>
       <Namespace />
       <Name>Demo Add-in</Name>
-      <Version>1.5</Version>
+      <Version>1.6</Version>
       <BaseVersion />
       <Author />
       <Copyright />
@@ -147,17 +240,17 @@
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">4541</Property>
+        <Property name="DownloadSize">4477</Property>
       </Properties>
     </Addin>
   </Addin>
   <Addin>
-    <Url>PintaUploadAddin_0.1.mpack</Url>
+    <Url>PintaUploadAddin_0.1.1.mpack</Url>
     <Addin>
       <Id>PintaUploadAddin</Id>
       <Namespace />
       <Name>Uploader</Name>
-      <Version>0.1</Version>
+      <Version>0.1.1</Version>
       <BaseVersion />
       <Author />
       <Copyright />
@@ -172,7 +265,7 @@
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">6454</Property>
+        <Property name="DownloadSize">6413</Property>
       </Properties>
     </Addin>
   </Addin>
