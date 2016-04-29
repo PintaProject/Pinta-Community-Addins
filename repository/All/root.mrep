@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Repository xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Addin>
     <Url>ASCIIArtAddin_1.0.1.mpack</Url>
     <Addin>
@@ -36,13 +36,13 @@
     <Addin>
       <Id>AlphaAdjustmentEffects</Id>
       <Namespace />
-      <Name>Alpha Adjustment Effekte</Name>
+      <Name>Alpha Adjustment Effects</Name>
       <Version>1.0.0</Version>
       <BaseVersion />
       <Author>Stefan Moebius</Author>
       <Copyright />
       <Url>https://github.com/codeprof/Pinta-Plugins</Url>
-      <Description>Eine Sammlung einfacher Effekte zur Manipulation des Alphakanals.</Description>
+      <Description>A collection of simple effects to manipulate the alpha channel.</Description>
       <Category>Effects</Category>
       <Dependencies>
         <AddinDependency>
@@ -96,13 +96,13 @@
     <Addin>
       <Id>BrushCollection</Id>
       <Namespace />
-      <Name>Brush Sammlung</Name>
+      <Name>Brush Collection</Name>
       <Version>1.0.0</Version>
       <BaseVersion />
       <Author>Stefan Moebius</Author>
       <Copyright />
       <Url>https://github.com/codeprof/Pinta-Plugins</Url>
-      <Description>Eine Sammlung zusätzlicher Brushes für Pinta. Sie beinhaltet Brushes zur verwaschen, schärfen, intelligentem löschen und einfärben von Bildern</Description>
+      <Description>A collection of additional brushes for pinta. It contains brushes to blur, sharpen, inteligently erase and tone the image.</Description>
       <Category>Brushes</Category>
       <Dependencies>
         <AddinDependency>
@@ -127,13 +127,13 @@
     <Addin>
       <Id>DitherEffect</Id>
       <Namespace />
-      <Name>Dither-Effekt</Name>
+      <Name>Dither Effect</Name>
       <Version>1.0.0</Version>
       <BaseVersion />
       <Author>Stefan Moebius</Author>
       <Copyright />
       <Url>https://github.com/codeprof/Pinta-Plugins</Url>
-      <Description>Ein einfacher Dithereffekt, der abwechselnd die Helligkeit für jedes Pixel erhöht oder erniedrigt.</Description>
+      <Description>A simple dither effect which alternating increases and decreases brightness of each pixel.</Description>
       <Category>Effects</Category>
       <Dependencies>
         <AddinDependency>
@@ -164,7 +164,7 @@
       <Author>Steve Kew</Author>
       <Copyright />
       <Url>http://aquaria.za.net</Url>
-      <Description>A simple add-in that will allow you to easily generate a grid or checkerboard pattern. Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Description>
+      <Description>A simple add-in that will allow you to easily generate a grid or checkerboard pattern Based on BoltBait's Grid Maker v3.0 plugin for Paint.net.</Description>
       <Category>General</Category>
       <Dependencies>
         <AddinDependency>
@@ -216,6 +216,35 @@
         <Property name="Description" locale="es">Este complemento coloreará la imagen para que parezca vista a través de un dispositivo de visión nocturna.</Property>
         <Property name="Description" locale="nb">En enkel effekt som vil endre fargene på bildet ditt slik at det ser ut som det er tatt med nattkikkert.</Property>
         <Property name="DownloadSize">4005</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>PaintDotNetAddin_1.0.0.mpack</Url>
+    <Addin>
+      <Id>PaintDotNetAddin</Id>
+      <Namespace />
+      <Name>Paint.Net Importer</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stephen Kew</Author>
+      <Copyright />
+      <Url>https://github.com/stevekew/PaintDotNetAddin</Url>
+      <Description>Add-in to import Paint.net (*.pdn) files</Description>
+      <Category>File Formats</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.6</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Paint.Net Importer</Property>
+        <Property name="Description">Add-in to import Paint.net (*.pdn) files</Property>
+        <Property name="Author">Stephen Kew</Property>
+        <Property name="Url">https://github.com/stevekew/PaintDotNetAddin</Property>
+        <Property name="DownloadSize">10664</Property>
       </Properties>
     </Addin>
   </Addin>
