@@ -32,37 +32,6 @@
     </Addin>
   </Addin>
   <Addin>
-    <Url>AlphaAdjustmentEffectsAddin_1.0.0.mpack</Url>
-    <Addin>
-      <Id>AlphaAdjustmentEffects</Id>
-      <Namespace />
-      <Name>Alpha Adjustment Effects</Name>
-      <Version>1.0.0</Version>
-      <BaseVersion />
-      <Author>Stefan Moebius</Author>
-      <Copyright />
-      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
-      <Description>A collection of simple effects to manipulate the alpha channel.</Description>
-      <Category>Effects</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>Pinta</AddinId>
-          <Version>1.7</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="Name">Alpha Adjustment Effects</Property>
-        <Property name="Description">A collection of simple effects to manipulate the alpha channel.</Property>
-        <Property name="Author">Stefan Moebius</Property>
-        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
-        <Property name="Name" locale="de">Alpha Adjustment Effekte</Property>
-        <Property name="Description" locale="de">Eine Sammlung einfacher Effekte zur Manipulation des Alphakanals.</Property>
-        <Property name="DownloadSize">11359</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
     <Url>BlockBrush_0.1.1.mpack</Url>
     <Addin>
       <Id>BlockBrush</Id>
@@ -88,68 +57,6 @@
         <Property name="Author">Cameron White</Property>
         <Property name="Url">https://github.com/PintaProject/BlockBrush</Property>
         <Property name="DownloadSize">2660</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
-    <Url>BrushCollectionAddin_1.0,0.mpack</Url>
-    <Addin>
-      <Id>BrushCollection</Id>
-      <Namespace />
-      <Name>Brush Collection</Name>
-      <Version>1.0.0</Version>
-      <BaseVersion />
-      <Author>Stefan Moebius</Author>
-      <Copyright />
-      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
-      <Description>A collection of additional brushes for pinta. It contains brushes to blur, sharpen, inteligently erase and tone the image.</Description>
-      <Category>Brushes</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>Pinta</AddinId>
-          <Version>1.7</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="Name">Brush Collection</Property>
-        <Property name="Description">A collection of additional brushes for pinta. It contains brushes to blur, sharpen, inteligently erase and tone the image.</Property>
-        <Property name="Author">Stefan Moebius</Property>
-        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
-        <Property name="Name" locale="de">Brush Sammlung</Property>
-        <Property name="Description" locale="de">Eine Sammlung zusätzlicher Brushes für Pinta. Sie beinhaltet Brushes zur verwaschen, schärfen, intelligentem löschen und einfärben von Bildern</Property>
-        <Property name="DownloadSize">20372</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
-    <Url>DitherAddin_1.0.0.mpack</Url>
-    <Addin>
-      <Id>DitherEffect</Id>
-      <Namespace />
-      <Name>Dither Effect</Name>
-      <Version>1.0.0</Version>
-      <BaseVersion />
-      <Author>Stefan Moebius</Author>
-      <Copyright />
-      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
-      <Description>A simple dither effect which alternating increases and decreases brightness of each pixel.</Description>
-      <Category>Effects</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>Pinta</AddinId>
-          <Version>1.7</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="Name">Dither Effect</Property>
-        <Property name="Description">A simple dither effect which alternating increases and decreases brightness of each pixel.</Property>
-        <Property name="Author">Stefan Moebius</Property>
-        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
-        <Property name="Name" locale="de">Dither-Effekt</Property>
-        <Property name="Description" locale="de">Ein einfacher Dithereffekt, der abwechselnd die Helligkeit für jedes Pixel erhöht oder erniedrigt.</Property>
-        <Property name="DownloadSize">8649</Property>
       </Properties>
     </Addin>
   </Addin>
@@ -220,6 +127,124 @@
     </Addin>
   </Addin>
   <Addin>
+    <Url>PintaDemoExtension_1.6.mpack</Url>
+    <Addin>
+      <Id>PintaDemoExtension</Id>
+      <Namespace />
+      <Name>Demo Add-in</Name>
+      <Version>1.6</Version>
+      <BaseVersion />
+      <Author />
+      <Copyright />
+      <Url />
+      <Description>A simple add-in that demonstrates how add-ins work.</Description>
+      <Category>Utilities</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.5</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">4477</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>AlphaAdjustmentEffectsAddin_1.0.0.mpack</Url>
+    <Addin>
+      <Id>AlphaAdjustmentEffects</Id>
+      <Namespace />
+      <Name>Alpha Adjustment Effects</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stefan Moebius</Author>
+      <Copyright />
+      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
+      <Description>A collection of simple effects to manipulate the alpha channel.</Description>
+      <Category>Effects</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Alpha Adjustment Effects</Property>
+        <Property name="Description">A collection of simple effects to manipulate the alpha channel.</Property>
+        <Property name="Author">Stefan Moebius</Property>
+        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
+        <Property name="Name" locale="de">Alpha Adjustment Effekte</Property>
+        <Property name="Description" locale="de">Eine Sammlung einfacher Effekte zur Manipulation des Alphakanals.</Property>
+        <Property name="DownloadSize">11359</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>BrushCollectionAddin_1.0,0.mpack</Url>
+    <Addin>
+      <Id>BrushCollection</Id>
+      <Namespace />
+      <Name>Brush Collection</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stefan Moebius</Author>
+      <Copyright />
+      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
+      <Description>A collection of additional brushes for pinta. It contains brushes to blur, sharpen, inteligently erase and tone the image.</Description>
+      <Category>Brushes</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Brush Collection</Property>
+        <Property name="Description">A collection of additional brushes for pinta. It contains brushes to blur, sharpen, inteligently erase and tone the image.</Property>
+        <Property name="Author">Stefan Moebius</Property>
+        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
+        <Property name="Name" locale="de">Brush Sammlung</Property>
+        <Property name="Description" locale="de">Eine Sammlung zusätzlicher Brushes für Pinta. Sie beinhaltet Brushes zur verwaschen, schärfen, intelligentem löschen und einfärben von Bildern</Property>
+        <Property name="DownloadSize">20372</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
+    <Url>DitherAddin_1.0.0.mpack</Url>
+    <Addin>
+      <Id>DitherEffect</Id>
+      <Namespace />
+      <Name>Dither Effect</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Stefan Moebius</Author>
+      <Copyright />
+      <Url>https://github.com/codeprof/Pinta-Plugins</Url>
+      <Description>A simple dither effect which alternating increases and decreases brightness of each pixel.</Description>
+      <Category>Effects</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>Pinta</AddinId>
+          <Version>1.7</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="Name">Dither Effect</Property>
+        <Property name="Description">A simple dither effect which alternating increases and decreases brightness of each pixel.</Property>
+        <Property name="Author">Stefan Moebius</Property>
+        <Property name="Url">https://github.com/codeprof/Pinta-Plugins</Property>
+        <Property name="Name" locale="de">Dither-Effekt</Property>
+        <Property name="Description" locale="de">Ein einfacher Dithereffekt, der abwechselnd die Helligkeit für jedes Pixel erhöht oder erniedrigt.</Property>
+        <Property name="DownloadSize">8649</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+  <Addin>
     <Url>PaintDotNetAddin_1.0.0.mpack</Url>
     <Addin>
       <Id>PaintDotNetAddin</Id>
@@ -249,37 +274,12 @@
     </Addin>
   </Addin>
   <Addin>
-    <Url>PintaDemoExtension_1.6.mpack</Url>
-    <Addin>
-      <Id>PintaDemoExtension</Id>
-      <Namespace />
-      <Name>Demo Add-in</Name>
-      <Version>1.6</Version>
-      <BaseVersion />
-      <Author />
-      <Copyright />
-      <Url />
-      <Description>A simple add-in that demonstrates how add-ins work.</Description>
-      <Category>Utilities</Category>
-      <Dependencies>
-        <AddinDependency>
-          <AddinId>Pinta</AddinId>
-          <Version>1.5</Version>
-        </AddinDependency>
-      </Dependencies>
-      <OptionalDependencies />
-      <Properties>
-        <Property name="DownloadSize">4477</Property>
-      </Properties>
-    </Addin>
-  </Addin>
-  <Addin>
-    <Url>PintaUploadAddin_0.1.1.mpack</Url>
+    <Url>PintaUploadAddin_0.2.0.mpack</Url>
     <Addin>
       <Id>PintaUploadAddin</Id>
       <Namespace />
       <Name>Uploader</Name>
-      <Version>0.1.1</Version>
+      <Version>0.2.0</Version>
       <BaseVersion />
       <Author />
       <Copyright />
@@ -294,7 +294,7 @@
       </Dependencies>
       <OptionalDependencies />
       <Properties>
-        <Property name="DownloadSize">6413</Property>
+        <Property name="DownloadSize">6377</Property>
       </Properties>
     </Addin>
   </Addin>
