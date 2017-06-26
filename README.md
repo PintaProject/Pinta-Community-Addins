@@ -1,12 +1,12 @@
-#Pinta Community Addins
+# Pinta Community Addins
 
 This repository is for distributing community-contributed add-ins to all Pinta users, replacing the old and slightly unreliable server system we used to use. Please note that in this repository you only commit the finished and packaged binaries for your add-ins. You should still keep your source code, isue trackers etc. in a git repository of your own.
 
-##The repository
+## The repository
 
 Go to http://pintaproject.github.io/Pinta-Community-Addins/repository/All (also Linux/Mac/Windows for platform specific addins) to check out the currently availble addins, and add the repository to Pinta 1.5 by opening the addin manager, going to Gallery -> Manage repositories -> Add, and adding this URL.
 
-##Adding to the repository
+## Adding to the repository
 
 - Make sure you have mautil installed by installing the mono-addins-utils package.
 - Build your add-in as described in the tutorial (look at the existing add-ins for a hint).
@@ -21,14 +21,14 @@ Go to http://pintaproject.github.io/Pinta-Community-Addins/repository/All (also 
   - The pull request should include changes to index.html, root.mrep, main.mrep (from running the update script), and your addin mpack.
 - Voilà, your add-in is now available to every Pinta user! (From 1.6 onwards, or if they have added the repository manually)
 
-##mautil
+## mautil
 For debian:
 "apt-get install mono-addins-utils"
 
-##Licensing
+## Licensing
 What little code there is in this repository is MIT/X-licensed just like Pinta. Individual addins contributed to this repository can have different licenses on their source code, but by committing them here you agree to allow unlimited distribution of the binaries.
 
-##Notes
+## Notes
 See the [Mono.Addins wiki](https://monoaddins.codeplex.com/wikipage?title=Creating%20and%20Managing%20Add-in%20Packages) for more info on mautil and mpack.
 
 See the [Pinta wiki](https://github.com/PintaProject/Pinta/wiki) for more on creating Pinta addins.
